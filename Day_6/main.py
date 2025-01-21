@@ -58,6 +58,7 @@ print("The type of",greeting,"is",type(greeting))
 
 l1 = [23,56,12,87.5,43,189,"Arnab","Vrinda","Anamika",["apple","banana","pear"]]
 print(l1)
+print("The id of l1 is",id(l1))
 print(type(l1))
 
 t1 = (23,56,12,87.5,43,189,"Arnab","Vrinda","Anamika",("apple","banana","pear"))
