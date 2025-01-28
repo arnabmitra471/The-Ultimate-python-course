@@ -29,7 +29,7 @@ repeat_count = 4
 print(greeting * repeat_count)
 # print(greeting ** repeat_count)
 
-num1 = 10
-num2 = 4
+num1 = 10.5
+num2 = 4.5
 rem = num1 % num2
 print("The remainder when",num1,"is divided by",num2,"is",rem)
