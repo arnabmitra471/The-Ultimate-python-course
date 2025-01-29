@@ -46,3 +46,4 @@ print(slice4)
 nm = "Harry"
 print(nm[-4:-2])
 # 1:3
+print(nm[::-1])
