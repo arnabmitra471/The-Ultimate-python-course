@@ -9,3 +9,5 @@ if len(s1) == len(s2) and len(s1) != 0:
         print("It is a rotation of the original string")
     else:
         print("It is not a rotation of the original string")
+else:
+    print("Lengths of both the strings should be equal")
