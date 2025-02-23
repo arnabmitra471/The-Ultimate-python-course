@@ -1,35 +1,27 @@
-# This is the main.py file for day 5
 '''
-Hey Arnab, please don't remove this line
-Author: Arnab
+Hey Arnab please don't remove this line
+Author: Harry
+Course: 100 days of code
 '''
-# New line escape sequence
-# print("I am Arnab Mitra")
-print("Hey !! I am a good boy\n and this viewer is also a good boy/girl") # This is a single line comment
-print(34/4)
+# Newlines cannot be directly inserted in the string
+print("Hey I am a good boy\n and this viewer is also a good boy/girl")
+print("Hey I am a \"good boy\"\n and this viewer is also a good boy/girl")
+print('Hey I am a \'good boy\'\n and this viewer is also a good boy/girl')
+print("I am Arnab Mitra\tand I am 20 years old")
 
-# This is a single line comment
-# print("Hello World")
-# print("Hi everyone !!!") # Printing Hello World
-
-# \' and \"
+# print("Hello World")  # Printing Hello World
+# # This is a single line comment
+# print("This is a print statement")
 print("We are the so called \"Vikings\" from the north")
-print('We are the so called \'Vikings\' from the north')
 
-# Mixed Quotes
-print("We are the so called 'Vikings' from the north")
-print('We are the so called "Vikings" from the north')
-
-# Horizontal tab escape sequence
-print("My name is Arnab \t and my friend's name is Shubham")
-print("My name is Arnab and  my friend's name is\r Shubham")
-
-print("The lion is roaring \v\v a lot. Seems like \v\v he is hungry !!")
-print("Hey this is a lion")
+print("This is a \bsample \bstring")
+print("We use \\n to print a new line in the output")
 
 # More on print statement
+# Providing multiple values in the print statement
+print("Hey",6,7)
+# The sep parameter specifies the string with which multiple values will be separated in the print statement
+print("Hey",6,7,sep="~")
 
-# Multiple values passed to the print function are printed in sequence,separated by a space between them.
-print("Hey There !!",24,87,sep="~")
-print("Hi I am Arnab","I am 20 years old","I love programming a lot","Python is very elegant !!",sep="~",end="\t")
-print("This is Shaarav")
+print("I am Arnab Mitra",end="009\n")
+print("My friend's name is Shaarav")
